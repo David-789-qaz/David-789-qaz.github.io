@@ -1,0 +1,102 @@
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color:#fff; 
+    margin-bottom: 10px;
+}
+
+.top{
+    width: 10%;
+    height: 60px;
+    float: left;
+    font-size: large;
+    padding-top: 15px;  
+    padding-left: 10px; 
+
+}
+ .top a:hover{
+    color: red;
+}
+.topx{
+    width: 15%;
+    height: 60px;
+    float: left;
+    color:red;
+    font-size: xx-large; 
+    padding-top: 5px;  
+    /* padding-left: 10px;  */
+
+}
+.topl{
+        width: 8%;
+        height: 60px;
+        float: left;
+        font-size: larger;
+         padding-top: 15px;  
+         padding-left: 300px;
+    }
+.topl a:hover{
+    color: red;
+    
+}
+.reco{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+}
+.banner{
+    width: 80%;
+    height:500px ;
+    margin: 0 auto;
+   
+}
+.shoes{
+    width: 100%;
+    height: 500px;
+}
+.shoes img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.cloth img{
+    width:100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.clothspec{
+    width: 100%;
+    height: 1150px;
+}
+.shoespec{
+    width: 100%;
+    height: 1250px;
+    margin-top: 5px;
+}
+.spe{
+    width: 25%;
+    height: 350px;
+    float: left;
+    margin-bottom: 20px;   
+}
+.spe:hover{
+   opacity: 0.7;
+}
+.spe img{
+    width: 98%;
+    height: 230px;
+    margin: 3px;
+    border-radius: 5px;
+}
+.spe p{
+     text-align: center;
+}
+.spe span{
+    color: red;
+    font-size: medium;
+    margin-left: 160px;  
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>飞羽鞋城</title>
+    <link rel="stylesheet" href="./xu.css">
+    <link rel="icon" href="../images/shopping cart.webp">
+</head>
+<body>
+    <div class="nav">
+        <div class="topx">飞羽鞋城</div>
+        <div class="top"><a href="#">首页</a></div>
+        <div class="top"><a href="#">男鞋专区</a></div>
+        <div class="top"><a href="#">女鞋专区</a></div>
+        <div class="top"><a href="#">购物车</a></div>
+        <div class="top"><a href="#">我的订单</a></div>
+        <div class="topl"><a href="./login.html">登录</a></div>
+    </div>
+    <div class="reco"><h2>精品推荐</h2></div>
+    <div class="banner">
+            <div id="current" class="shoes">
+             <a href="#"> <img src="./img/banner3.webp" alt=""></a>
+            </div>
+    </div>
+    <h2>男鞋专区</h2> <a href="#"><h3>更多</h3></a>
+    <div class="clothspec">
+    <div class="special">
+        
+        <div class="spe"><a href="#">
+            <img src="./img/shoes-man-01.jpg" alt="">
+            <p>男士运动鞋</p>
+            <span>88￥</span>
+        </a></div>
+        <div class="spe"><a href="#">
+            <img src="./img/shoes-man-02.jpg" alt="">
+            <p>男士运动鞋</p>
+            <span>129￥</span>
+        </a></div>
+        <div class="spe"><a href="#">
+            <img src="./img/shoes-man-03.jpg" alt="">
+            <p>男士篮球鞋</p>
+            <span>149￥</span>
+        </a></div>
+        <div class="spe"><a href="#">
+            <img src="./img/shoes-man-04.jpg" alt="">
+            <p>男士运动鞋</p>
+            <span>188￥</span>
+        </a></div>
+    </div>
+    <div class="special">
+        
+        <div class="spe"><a href="#">
+            <img src="./img/shoes-man-05.jpg" alt="">
+            <p>男士运动鞋</p>
+            <span>188￥</span>
+        </a></div>
+        <div class="spe"><a href="#">
+            <img src="./img/shoes-man-06.jpg" alt="">
+            <p>男士休闲鞋</p>
+            <span>129￥</span>
+        </a></div>
+        <div class="spe"><a href="#">
+            <img src="./img/shoes-man-07.jpg" alt="">
+            <p>男士休闲鞋</p>
+            <span>159￥</span>
+        </a></div>
+        <div class="spe"><a href="#">
+            <img src="./img/shoes-man-08.jpg" alt="">
+            <p>男士休闲鞋</p>
+            <span>99￥</span>
+        </a></div>
+    </div>
+    <div class="special">
+        
+        <div class="spe"><a href="#">
+            <img src="./img/shoes-man-01.jpg" alt="">
+            <p>男士运动鞋</p>
+            <span>88￥</span>
+        </a></div>
+        <div class="spe"><a href="#">
+            <img src="./img/shoes-man-02.jpg" alt="">
+            <p>男士运动鞋</p>
+            <span>129￥</span>
+        </a></div>
+        <div class="spe"><a href="#">
+            <img src="./img/shoes-man-03.jpg" alt="">
+            <p>男士篮球鞋</p>
+            <span>149￥</span>
+        </a></div>
+        <div class="spe"><a href="#">
+            <img src="./img/shoes-man-04.jpg" alt="">
+            <p>男士运动鞋</p>
+            <span>188￥</span>
+        </a></div>
+    </div>
+    </div>
+    <div class="special">
+        
+        <div class="spe"><a href="#">
+            <img src="./img/shoes-man-01.jpg" alt="">
+            <p>男士运动鞋</p>
+            <span>88￥</span>
+        </a></div>
+        <div class="spe"><a href="#">
+            <img src="./img/shoes-man-02.jpg" alt="">
+            <p>男士运动鞋</p>
+            <span>129￥</span>
+        </a></div>
+        <div class="spe"><a href="#">
+            <img src="./img/shoes-man-03.jpg" alt="">
+            <p>男士篮球鞋</p>
+            <span>149￥</span>
+        </a></div>
+        <div class="spe"><a href="#">
+            <img src="./img/shoes-man-04.jpg" alt="">
+            <p>男士运动鞋</p>
+            <span>188￥</span>
+        </a></div>
+    </div>
+    </div>
+
+<script>
+    
+  const imgArr=["./img/banner3.webp","./img/banner4.webp","./img/banner5.jpg","./img/banner6.jpg","./img/banner7.jpg"]
+  const img=document.querySelector(".shoes img")
+  let current=0
+  setTimeout(function auto(){
+    current++
+    if(current>imgArr.length-1){
+        current=0
+    }
+    img.src=imgArr[current]
+    setTimeout(auto,5000)
+  },5000)
+
+
+    
+</script>
+</body>
+</html>
