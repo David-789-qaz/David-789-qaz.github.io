@@ -1,8 +1,42 @@
+/* 当屏幕宽度小于600px时应用的样式 */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
+
+/* 当屏幕宽度在601px到1024px之间时应用的样式 */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 15px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
+
+/* 当屏幕宽度大于1024px时应用的样式 */
+@media (min-width: 1025px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 30px;
+    }
+}
+
 .nav{
     width: 100%;
     height: 60px;
     background-color:#fff; 
     margin-bottom: 10px;
+    position: relative;
 }
 
 .top{
@@ -11,7 +45,7 @@
     float: left;
     font-size: large;
     padding-top: 15px;  
-    padding-left: 10px; 
+    padding-left: 5px; 
 
 }
  .top a:hover{
@@ -27,22 +61,24 @@
     /* padding-left: 10px;  */
 
 }
-.topl{
+.login{
         width: 8%;
         height: 60px;
         float: left;
         font-size: larger;
-         padding-top: 15px;  
-         padding-left: 300px;
+        padding-top: 15px;  
+        position: absolute;
+        right: 10px;
+        
     }
-.topl a:hover{
+.login a:hover{
     color: red;
     
 }
 .reco{
     width: 100%;
     height: 50px;
-    margin-bottom: 5px;
+    margin: 50px 0;
 }
 .banner{
     width: 80%;
@@ -51,8 +87,9 @@
    
 }
 .shoes{
-    width: 100%;
+    width: 700px;
     height: 500px;
+    margin: 0 auto;
 }
 .shoes img{
     width: 100%;
@@ -68,7 +105,7 @@ a{
     text-decoration: none;
     color: black;
 }
-.clothspec{
+.shoes-container{
     width: 100%;
     height: 1150px;
 }
@@ -82,6 +119,7 @@ a{
     height: 350px;
     float: left;
     margin-bottom: 20px;   
+    text-align: center;
 }
 .spe:hover{
    opacity: 0.7;
@@ -96,7 +134,8 @@ a{
      text-align: center;
 }
 .spe span{
+    width: 25%;
+    height: 25px;
     color: red;
     font-size: medium;
-    margin-left: 160px;  
 }

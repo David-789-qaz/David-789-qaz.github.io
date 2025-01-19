@@ -8,6 +8,7 @@
     <link rel="icon" href="./img/shopping cart.webp">
 </head>
 <body>
+    <div class="container">
     <div class="nav">
         <div class="topx">飞羽鞋城</div>
         <div class="top"><a href="#">首页</a></div>
@@ -15,7 +16,7 @@
         <div class="top"><a href="#">女鞋专区</a></div>
         <div class="top"><a href="#">购物车</a></div>
         <div class="top"><a href="#">我的订单</a></div>
-        <div class="topl"><a href="./login.html">登录</a></div>
+        <div class="login"><a href="./login.html">登录</a></div>
     </div>
     <div class="reco"><h2>精品推荐</h2></div>
     <div class="banner">
@@ -24,7 +25,7 @@
             </div>
     </div>
     <h2>男鞋专区</h2> <a href="#"><h3>更多</h3></a>
-    <div class="clothspec">
+    <div class="shoes-container">
     <div class="special">
         
         <div class="spe"><a href="#">
@@ -74,23 +75,23 @@
     <div class="special">
         
         <div class="spe"><a href="#">
-            <img src="./img/shoes-man-01.jpg" alt="">
-            <p>男士运动鞋</p>
+            <img src="./img/shoes9.webp" alt="">
+            <p>女士高跟鞋</p>
             <span>88￥</span>
         </a></div>
         <div class="spe"><a href="#">
-            <img src="./img/shoes-man-02.jpg" alt="">
-            <p>男士运动鞋</p>
+            <img src="./img/shoes10.webp" alt="">
+            <p>女士休闲鞋</p>
             <span>129￥</span>
         </a></div>
         <div class="spe"><a href="#">
-            <img src="./img/shoes-man-03.jpg" alt="">
-            <p>男士篮球鞋</p>
+            <img src="./img/shoes11.jpg" alt="">
+            <p>女士休闲鞋</p>
             <span>149￥</span>
         </a></div>
         <div class="spe"><a href="#">
-            <img src="./img/shoes-man-04.jpg" alt="">
-            <p>男士运动鞋</p>
+            <img src="./img/shoes12.webp" alt="">
+            <p>女士休闲鞋</p>
             <span>188￥</span>
         </a></div>
     </div>
@@ -98,31 +99,32 @@
     <div class="special">
         
         <div class="spe"><a href="#">
-            <img src="./img/shoes-man-01.jpg" alt="">
-            <p>男士运动鞋</p>
+            <img src="./img/shoes13.webp" alt="">
+            <p>女士高跟鞋</p>
             <span>88￥</span>
         </a></div>
         <div class="spe"><a href="#">
-            <img src="./img/shoes-man-02.jpg" alt="">
-            <p>男士运动鞋</p>
+            <img src="./img/shoes14.webp" alt="">
+            <p>男士板鞋</p>
             <span>129￥</span>
         </a></div>
         <div class="spe"><a href="#">
-            <img src="./img/shoes-man-03.jpg" alt="">
-            <p>男士篮球鞋</p>
+            <img src="./img/shoes15.webp" alt="">
+            <p>男士休闲鞋</p>
             <span>149￥</span>
         </a></div>
         <div class="spe"><a href="#">
-            <img src="./img/shoes-man-04.jpg" alt="">
-            <p>男士运动鞋</p>
+            <img src="./img/shoes16.webp" alt="">
+            <p>男士休闲鞋</p>
             <span>188￥</span>
         </a></div>
+    </div>
     </div>
     </div>
 
 <script>
     
-  const imgArr=["./img/banner3.webp","./img/banner4.webp","./img/banner5.jpg","./img/banner6.jpg","./img/banner7.jpg"]
+  const imgArr=["./img/banner11.webp","./img/banner12.webp","./img/banner13.webp","./img/banner6.jpg","./img/banner7.jpg"]
   const img=document.querySelector(".shoes img")
   let current=0
   setTimeout(function auto(){
@@ -133,9 +135,6 @@
     img.src=imgArr[current]
     setTimeout(auto,5000)
   },5000)
-
-
-    
 </script>
 </body>
 </html>
